@@ -1,0 +1,4 @@
+// works using @forward '../../src/runtime/assets/variables.scss' with (
+@forward '#my-module/assets/variables.scss' with (
+    $font-color: blue,
+);
